@@ -1,0 +1,20 @@
+.buttonDelete {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.buttonDelete:hover {
+    background-color: red;
+}
+
+.title {
+    padding: 20px;
+}

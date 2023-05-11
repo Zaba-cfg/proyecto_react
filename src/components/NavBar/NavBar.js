@@ -7,7 +7,11 @@ const NavBar = () => {
   return (
     <nav className="navBar">
       <Link to="/">
-        <img className="logo" src={proyecto_logo} alt="Logo de PCDROP" />
+        <img
+          className="rotate-center logo"
+          src={proyecto_logo}
+          alt="Logo de PCDROP"
+        />
       </Link>
       <div className="categories">
         <NavLink
@@ -27,6 +31,12 @@ const NavBar = () => {
           className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
         >
           Placas de Video
+        </NavLink>
+        <NavLink
+          to={`/category/memorias ram`}
+          className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
+        >
+          Memorias RAM
         </NavLink>
       </div>
       <CartWidget />

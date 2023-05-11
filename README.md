@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Bienvenidos a la tienda de Componentes de PC "PCDROP"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto de e-commerce desarrollado con React, en el cual se puede navegar a través de diferentes categorías de productos, visualizar el stock de cada producto con su respectivo precio y detalles, utilizar un carrito funcional y completar el checkout para generar un comprobante de compra con un id único.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Navegar entre las distintas categorías de productos**: Puede navegar a través de diferentes categorías de productos como procesadores, tarjetas gráficas, motherboards, memorias ram, etc.
 
-### `npm start`
+- **Stock de productos cada uno con su precio y detalles**: Todos los productos disponibles se muestran en el sitio web con su información detallada, incluyendo precio, descripción y características técnicas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Carrito funcional**: Se puede agregar productos al carrito, y luego eliminarlos de a uno o todos en un solo movimiento. El carrito se mantiene actualizado en todo momento para que el usuario pueda verificar el total de su compra.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Checkout**: Una vez que se han seleccionado los productos deseados, el usuario puede completar el proceso de checkout. Al finalizar la compra, se genera un comprobante de la misma, que se almacena en Firebase con un id único.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para instalar y ejecutar este proyecto en su máquina local, siga los siguientes pasos:
 
-### `npm run build`
+1. Descargue el repositorio de GitHub.
+2. Abra el directorio del proyecto en su editor de código favorito.
+3. Instale las dependencias utilizando el comando `npm install`.
+4. Ejecute la aplicación utilizando el comando `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Firebase
+- CSS
+- HTML
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuir
 
-### `npm run eject`
+Si desea contribuir con este proyecto, por favor envíe un pull request. Nos encantaría tener su contribución.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Autor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto fue creado por Agustín Zaballa.
