@@ -1,6 +1,6 @@
-# Bienvenidos a la tienda de Componentes de PC "PCDROP"
+# Bienvenidos a PCDROP
 
-Este es un proyecto de e-commerce desarrollado con React, en el cual se puede navegar a través de diferentes categorías de productos, visualizar el stock de cada producto con su respectivo precio y detalles, utilizar un carrito funcional y completar el checkout para generar un comprobante de compra con un id único.
+Este es un proyecto de e-commerce basado en una tienda de componentes para computadoras de escritorio desarrollado con React, en el cual se puede navegar a través de diferentes categorías de productos, visualizar el stock de cada producto con su respectivo precio y detalles, utilizar un carrito funcional y completar el checkout para generar un comprobante de compra con un id único.
 
 ## Funcionalidades
 
